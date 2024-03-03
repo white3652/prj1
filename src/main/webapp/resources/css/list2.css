@@ -1,0 +1,101 @@
+div,input,textarea {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+.subject {
+  width: 70%; 
+}
+
+
+.form-background {
+    background-color: #e6e6fa;
+    height: 800px;
+    padding: 30px;
+}
+.form-white {
+    background-color: white;
+    padding: 30px;
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.formList {
+    width: 80%;
+    height: 50%;
+    margin: 20px auto;
+    background-color: #e6e6fa;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.formList_header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.selectField,
+.textField,
+.bb_button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    color: #444;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.bb_button {
+    cursor: pointer;
+    background-color: #d1d1e0;
+    color: white;
+    border: none;
+}
+.formList_list {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.formList_list a {
+    text-decoration: none;
+    color: #9370DB;
+    transition: color 0.3s ease;
+}
+
+.formList_list a:hover {
+    color: #8A2BE2;
+}
+
+
+.board_post {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.board_post > div {
+    flex: 1;
+    padding: 0 8px;
+}
+
+.files {
+    flex: 0.3;
+    max-width: 50px; 
+    overflow: hidden;
+}
+
+.div_paging {
+    margin-left: 5%;
+}
